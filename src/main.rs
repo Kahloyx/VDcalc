@@ -10,31 +10,19 @@ fn main() {
         let mut r2 = String::new();
         println!("Vin in V:");
         io::stdin().read_line(&mut volts_in).expect("Failed to read line");
-        let volts_in:f64 = match volts_in.trim().parse(){
-            Ok(num) => num,
-            Err(_) => continue,
-        };
+        let volts_in:f64 = match volts_in.trim().parse(){Ok(num) => num,Err(_) => continue,};
         println!("
 Iin in mA:");
         io::stdin().read_line(&mut amps_in).expect("Failed to read line");
-        let amps_in:f64 = match amps_in.trim().parse(){
-            Ok(num) => num,
-            Err(_) => continue,
-        };
+        let amps_in:f64 = match amps_in.trim().parse(){Ok(num) => num,Err(_) => continue,};
         println!("
 R1 in Ohms:");
         io::stdin().read_line(&mut r1).expect("Failed to read line");
-        let r1:f64 = match r1.trim().parse(){
-            Ok(num) => num,
-            Err(_) => continue,
-        };
+        let r1:f64 = match r1.trim().parse(){Ok(num) => num,Err(_) => continue,};
         println!("
 R2 in Ohms:");
         io::stdin().read_line(&mut r2).expect("Failed to read line");
-        let r2:f64 = match r2.trim().parse(){
-            Ok(num) => num,
-            Err(_) => continue,
-        };
+        let r2:f64 = match r2.trim().parse(){Ok(num) => num,Err(_) => continue,};
         let _outvolts = voltage_divider(volts_in, r1, r2);
         let _out_amps = current_divider(amps_in, r1, r2);
         println!("
