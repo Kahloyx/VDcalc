@@ -30,7 +30,7 @@ I Out = 15mA xR1/R1+R2 = 5 mA
 If you use 10 Ohms for R1 and 20 Ohms for R2, same output current of 5 mA will be produced but increased voltage drop will be the result.
 
 	ToDo:
-	-Add the Current Option.
+	-Add the Current Option. 					```Check```
 	-Add K M G m option to calculation.
 	-Add loop for different calculation.
 	-Add Reversible calculation.
