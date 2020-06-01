@@ -35,3 +35,4 @@ If you use 10 Ohms for R1 and 20 Ohms for R2, same output current of 5 mA will b
 	-Add loop for different calculation.
 	-Add Reversible calculation.
 	-Maybe also add what is the best Option depending on which resistors are available and test to find the more suitable.
+	-And more to come as long as I'll need to obviously...
