@@ -29,7 +29,7 @@ I Out = 15mA xR1/R1+R2 = 5 mA
 
 If you use 10 Ohms for R1 and 20 Ohms for R2, same output current of 5 mA will be produced but increased voltage drop will be the result.		Source: https://electroschematics.com/voltage-and-current-divider/
 
-[!Explanation](https://github.com/Kahloyx/tree/master/assets/Voltage-and-Current-Divider.png)
+ [!Explanation](assets/Voltage-and-Current-Divider.png)
 	ToDo:
 	-Add the Current Option. 					```Check```
 	-Add K M G m option to calculation.
