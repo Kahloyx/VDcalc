@@ -1,4 +1,4 @@
-Calculating Utility For Voltage Divider:
+Calculating Utility For Voltage Divider written in Rust (as good as I could):
 
 	Notes To Understand Voltage Divider:
 
@@ -15,7 +15,7 @@ Suppose we need 5 volts output from a 15 volt power supply.Then we should use th
 V Out = V in x R2/R1+R2 = 15 X 1000 /2000+1000 = 5 Volt
 
 If the power supply is 12 volts, you will get 4 Volts from the same divider.
-If we use 200 ohms for R1 and 100 ohms for R2, same output voltage will be obtained, but current will be more. 					Source: https://electroschematics.com/voltage-and-current-divider/
+If we use 200 ohms for R1 and 100 ohms for R2, same output voltage will be obtained, but current will be more.
 
 	Current divider
 
@@ -27,7 +27,7 @@ Suppose you need a current of 5 mA from a 15 mA input current, you should select
 
 I Out = 15mA xR1/R1+R2 = 5 mA
 
-If you use 10 Ohms for R1 and 20 Ohms for R2, same output current of 5 mA will be produced but increased voltage drop will be the result.
+If you use 10 Ohms for R1 and 20 Ohms for R2, same output current of 5 mA will be produced but increased voltage drop will be the result.		Source: https://electroschematics.com/voltage-and-current-divider/
 
 	ToDo:
 	-Add the Current Option. 					```Check```
