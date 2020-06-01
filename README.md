@@ -1,6 +1,6 @@
-Calculating Utility For Voltage Divider, will add current divider option too.
+Calculating Utility For Voltage Divider:
 
-	Notes For Engeneer:
+	Notes To Understand Voltage Divider:
 
 Voltage and Current divider arrangements are the common in electronic circuits. Before selecting the value of resistors, it is necessary to calculate the voltage and current from the output of a resistor chain. So that the circuit will function properly. Here is a simple but useful tip to calculate the voltage and current from resistor chains.
 
@@ -28,3 +28,10 @@ Suppose you need a current of 5 mA from a 15 mA input current, you should select
 I Out = 15mA xR1/R1+R2 = 5 mA
 
 If you use 10 Ohms for R1 and 20 Ohms for R2, same output current of 5 mA will be produced but increased voltage drop will be the result.
+
+	ToDo:
+	-Add the Current Option.
+	-Add K M G m option to calculation.
+	-Add loop for different calculation.
+	-Add Reversible calculation.
+	-Maybe also add what is the best Option depending on which resistors are available and test to find the more suitable.
